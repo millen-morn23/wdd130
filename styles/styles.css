@@ -1,10 +1,17 @@
-:root{
-    --heading-background: #f06;
-    --heading-text-color: #333;
-    --heading-font: 'Montserrat', Helvetica, sans-serif;
-    --padding: 1rem;
-    --border: 1px solid rbg(0 0 0 / 0.1);
-
+:root {
+    --primary-color: darkblue;
+    --secondary-color: white;
+    --bg-light: #eee;
+    --text-dark: #333;
+    --border-light: rgba(0, 0, 0, 0.2);
+    --border-dark: #000;
+    --padding-small: 10px;
+    --padding-large: 20px;
+    --image-small: 150px;
+    --image-medium: 200px;
+    --box-shadow: 0 0 30px;
+    --margin-default: 1rem;
+    --max-width-main: 840px;
 }
 
 
