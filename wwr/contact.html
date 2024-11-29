@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with Rafting Company for inquiries, reservations, or suggestions. We are happy to assist you.">
+  <title>Contact Us - Rafting Company</title>
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="images/logo.jpeg" alt="Rafting Company Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h2>Get in Touch</h2>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info">
+      <h2>Contact Information</h2>
+      <p><strong>Address:</strong> Lucky Summer, Nairobi, Kenya</p>
+      <p><strong>Phone:</strong> +254 123 456 7890</p>
+      <p><strong>Email:</strong> info@raftingcompany.com</p>
+
+      <h3>Find Us on the Map</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;"></iframe>
+    </section>
+
+    <!-- Employee Profiles Section -->
+    <section class="employee-profiles">
+      <h2>Meet Our Team</h2>
+      <div class="employee">
+        <figure>
+          <img src="images/employee1.jpg" alt="John Doe">
+          <figcaption>John Doe - Guide</figcaption>
+        </figure>
+      </div>
+      <div class="employee">
+        <figure>
+          <img src="images/employee2.jpg" alt="Jacob Smith">
+          <figcaption>Jane Smith - Operations</figcaption>
+        </figure>
+      </div>
+      <div class="employee">
+        <figure>
+          <img src="images/employee3.jpg" alt="Mark Lee">
+          <figcaption>Mark Lee - Marketing</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <!-- Contact Form Section -->
+<section class="contact-form">
+  <h2>Contact Us</h2>
+  <form action="submit_form.php" method="POST">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Your Email</label>
+    <input type="email" id="email" name="email" required><br><br><br><br>
+
+    <label>Message Type</label>
+    <div>
+      <label for="general"><input type="radio" id="general" name="message-type" value="general"> General Inquiry</label>
+      <label for="reservation"><input type="radio" id="reservation" name="message-type" value="reservation"> Reservation Question</label>
+      <label for="suggestion"><input type="radio" id="suggestion" name="message-type" value="suggestion"> Website Suggestion</label>
+    </div>
+
+    <label for="message">Your Message</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <label><input type="checkbox" name="newsletter" id="newsletter"> Subscribe me to the monthly newsletter</label>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Rafting Company. All Rights Reserved.</p>
+    <div class="sociallinks">
+      <a href="https://facebook.com" target="_blank">
+        <img src="images/facebook.svg" alt="Facebook"></a>
+      <a href="https://twitter.com" target="_blank">
+        <img src="images/x-twiiter.svg" alt="Twitter"></a>
+      <a href="https://instagram.com" target="_blank">
+        <img src="images/instagram.svg" alt="Instagram"></a>
+    </div>
+    <p><a href="https://app.moqups.com/QSULdc4RiHgESdkV9x3p4YDBUCQvbh8G/view/page/ad64222d5" target="_blank">View Contact Page Wireframe</a></p>
+  </footer>
+
+</body>
+</html>
