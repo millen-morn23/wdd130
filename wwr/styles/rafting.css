@@ -89,18 +89,11 @@ header nav a {
   text-align: center;
 }
 .hero article{
-display: flex;
-flex-direction: column;
-align-items: center; /* Center the article content */
-background-color: rgba(0, 0, 0, 0.5);
-color: white;
-padding: 2em;
-width: 80%;
-position: absolute;
-bottom: 5%;
-left: 50%;
-transform: translateX(-50%); /* Center the article */
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 2; /* Give the text more space */
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-right: 1em; /* Add spacing between text and image */
+  text-align: left;
 }
 
 .hero article img {
@@ -125,24 +118,35 @@ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 1em;
 }
 
+/* White Water Rafting Section */
 .history-content {
   display: flex;
-  gap: 20px;
-  align-items: center;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Align items vertically */
+  text-align: left; /* Align text to the left */
+  background-color: white;
+  border: 1px solid #ccc; /* Add a light border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 1.5em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 80%; /* Adjust the width of the content container */
+  margin: 0 auto; /* Center the section with margin */
 }
 
 .history-content p {
-  flex: 1;
-  font-size: 1.1rem;
+  flex: 2; /* Give the text more space */
+  font-size: 1rem;
   line-height: 1.6;
+  margin-right: 1em; /* Add spacing between text and image */
 }
 
 .history-content img {
-  flex: 1;
-  max-width: 300px;
+  flex: 1; /* Give the image less space */
+  max-width: 300px; /* Limit the image width */
   height: auto;
-  border-radius: 5px;
+  border-radius: 5px; /* Optional rounded corners */
 }
+
 
 /* Article Section */
  article {
