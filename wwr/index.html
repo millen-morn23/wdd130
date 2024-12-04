@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Experience the thrill of whitewater rafting. Discover our trips and adventures tailored for all skill levels.">
+    <meta name="author" content="Millen Morn">
+    <title>Home - Whitewater Rafting</title>
+    <link rel="stylesheet" href="./styles/rafting.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <img src="images/logo.jpeg" alt="Rafting Company Logo">
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" style="background-image: url('images/home-hero.jpg');">
+            <h1>Welcome to Whitewater Rafting Adventures</h1>
+            <p>Embark on an unforgettable journey with us!</p>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="call-to-action">
+            <h2>Ready to Experience the Thrill?</h2> <!-- Added heading -->
+            <p>Ready to experience the thrill of rafting? Explore our trips!</p>
+            <a href="trips.html" class="cta-button">View Our Trips</a>
+        </section>
+
+        <!-- Newsletter Signup -->
+        <section class="newsletter">
+            <h2>Stay Updated</h2>
+            <form action="subscribe.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit" class="cta-button">Subscribe</button>
+            </form>
+        </section>
+
+        <!-- Purpose and Offerings -->
+        <section class="site-purpose">
+            <h2>Why Choose Us?</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="images/adventure.jpg" alt="Adventure Experience">
+                    <h3>Adventure for Everyone</h3>
+                    <p>From calm waters for beginners to extreme rapids for thrill-seekers, we have something for
+                        everyone.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/scenic.jpg" alt="Scenic Beauty">
+                    <h3>Scenic Beauty</h3>
+                    <p>Explore stunning landscapes and nature's beauty while enjoying your rafting adventures.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/safety.jpg" alt="Safety First">
+                    <h3>Safety First</h3>
+                    <p>Your safety is our priority. Our trained guides and top-notch equipment ensure a secure
+                        experience.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Whitewater Rafting Adventures. All Rights Reserved.</p>
+        <div class="sociallinks">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.svg" alt="Facebook"></a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/x-twiiter.svg" alt="Twitter"></a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.svg" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
