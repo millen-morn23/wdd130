@@ -219,6 +219,13 @@ section img {
   margin: 10px;
 }
 
+.map-frame {
+  width: 600px;
+  height: 450px;
+  border: 0;
+}
+
+
 /* Contact Section Styles */
 .contact-section {
   display: flex;
@@ -267,6 +274,11 @@ section img {
 .contact-form textarea {
   resize: vertical;
 }
+
+.bold-text {
+  font-weight: 700;
+}
+
 
 /* Aligning Checkbox with Text */
 .checkbox-label {
