@@ -26,10 +26,11 @@
     <!-- Main Section -->
     <main>
         <!-- Hero Section -->
-        <section class="hero" style="background-image: url('images/home-hero.jpg');">
+        <div class="hero">
+            <img src="images/home-hero.jpg" alt="Home Hero image">
             <h1>Welcome to Whitewater Rafting Adventures</h1>
             <p>Embark on an unforgettable journey with us!</p>
-        </section>
+        </div>
 
         <!-- Call to Action -->
         <section class="call-to-action">
@@ -41,43 +42,44 @@
         <!-- Newsletter Signup -->
         <section class="newsletter">
             <h2>Stay Updated</h2>
-            <form action="subscribe.php" method="post">
+            <form>
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" required placeholder="Fullname">
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" required placeholder="jusdas@gmail.com">
                 <button type="submit" class="cta-button">Subscribe</button>
             </form>
         </section>
 
         <!-- Purpose and Offerings -->
-        <section class="site-purpose">
+        <section class="site-purpose grid-container">
             <h2>Why Choose Us?</h2>
-            <div class="grid-container">
+            
                 <div class="grid-item">
                     <img src="images/adventure.jpg" alt="Adventure Experience">
-                    <h3>Adventure for Everyone</h3>
+                    <p class="home-test">Adventure for Everyone</p>
                     <p>From calm waters for beginners to extreme rapids for thrill-seekers, we have something for
                         everyone.</p>
                 </div>
                 <div class="grid-item">
                     <img src="images/scenic.jpg" alt="Scenic Beauty">
-                    <h3>Scenic Beauty</h3>
+                    <p class="home-test">Scenic Beauty</p>
                     <p>Explore stunning landscapes and nature's beauty while enjoying your rafting adventures.</p>
                 </div>
                 <div class="grid-item">
                     <img src="images/safety.jpg" alt="Safety First">
-                    <h3>Safety First</h3>
+                    <p class="home-test">Safety First</p>
                     <p>Your safety is our priority. Our trained guides and top-notch equipment ensure a secure
                         experience.</p>
                 </div>
-            </div>
+           
         </section>
     </main>
 
     <!-- Footer -->
     <footer>
         <p>&copy; 2024 Whitewater Rafting Adventures. All Rights Reserved.</p>
+        <p></p>
         <div class="sociallinks">
             <a href="https://facebook.com" target="_blank">
                 <img src="images/facebook.svg" alt="Facebook"></a>
