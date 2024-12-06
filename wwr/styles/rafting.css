@@ -9,6 +9,10 @@
   --body-font: 'Open Sans', sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /* General Styles */
 body {
   font-family: var(--body-font);
